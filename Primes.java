@@ -1,6 +1,7 @@
 
 import javax.swing.text.StyledEditorKit;
 
+public class Primes {
     public static void main(String[] args) {
        int n=Integer.parseInt(args[0]);
         boolean[] isPrime = primes(n);
@@ -42,4 +43,4 @@ import javax.swing.text.StyledEditorKit;
         return isPrime;
     }
 
-    
+    }
