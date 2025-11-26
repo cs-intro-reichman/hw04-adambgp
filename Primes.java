@@ -12,10 +12,12 @@ public class Primes {
                System.out.println(i);
                times++;
            }
-       }int percent = 0;
-       if (n > 1) {
-           percent = (int)((double)times * 100 /n);
+
        }
+       
+       
+         int  percent = (int)(times * (double)(100 /n));
+       
        System.out.println("There are " + times + " primes between 2 and " + n + "(" + percent + "% are primes)");
     }
 
